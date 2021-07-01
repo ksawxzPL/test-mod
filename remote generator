@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Remote Generator
+description: Control this generator for power.
+size: 2
+hasPower: true
+hasItems: false
+itemDuration: 30
+powerProduction: 120
+consumes: {
+  items: {
+    items: [
+      gold-powder/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+]
+category: power
+research: silver-crucible
+© 2021 GitHub, Inc.
